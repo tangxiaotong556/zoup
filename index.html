@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zoup · 3D Interactive Magazine</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+
+<body>
+  <div id="scene"></div>
+
+    <!-- 交互提示 -->
+    <div class="interaction-hint" id="hint">
+      <span>拖拽旋转</span> · <span>滚轮缩放</span> · <span>点击查看详情</span>
+    </div>
+
+  <!-- 详情弹窗 -->
+  <div class="detail-panel" id="detailPanel">
+    <div class="detail-close" id="detailClose">×</div>
+    <div class="detail-content" id="detailContent"></div>
+  </div>
+
+  <!-- 加载进度 -->
+  <div class="loader" id="loader">
+    <div class="loader-bar"></div>
+    <div class="loader-text">LOADING 3D SCENE</div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
