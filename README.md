@@ -58,7 +58,7 @@ zoup/
     ├── main.js         # 全部 3D 场景逻辑（程序化建模与交互）
     └── style.css       # 页面与弹窗样式
 ```
-
 ## License
 
-本项目为私有项目，暂未开放使用许可。
+MIT License
+
