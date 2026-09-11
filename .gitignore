@@ -1,0 +1,10 @@
+# 依赖包
+node_modules/
+
+# 构建产物
+dist/
+build/
+
+# 本地环境文件
+.env
+
